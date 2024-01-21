@@ -1,7 +1,7 @@
 ### Hi, I'm Fredamalinda Hall
 
 ### ☁️ I've been working in the cloud for 2 years
-### 🔭 I'm currently working on a serverless web application called 
+### 🔭 I'm currently working on a serverless web application and a CI/CD Pipeline
 ### 🌱 I'm currently learning Kubernetes 
 
 
