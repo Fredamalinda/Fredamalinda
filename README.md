@@ -1,6 +1,6 @@
 ## Hi, I'm Fredamalinda Hall
 
-### ☁️ I've been working in the cloud for 2 years
+### ☁️ I've been working with linux and cloud services for 2 years
 ### 🔭 I'm currently working on a serverless web application and a CI/CD Pipeline
 ### 🌱 I'm currently learning Terraform Kubernetes and Azure
 
