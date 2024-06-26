@@ -1,0 +1,24 @@
+6/25
+Tar Star Gzip Bzip
+
+man star
+star - unique standard tape archiver
+to extract files us -x
+mkdir archives 
+cd archives
+ls
+touch file{1,2,3}
+mkdir dir1 dir2
+star -c -f=newstararchive.star dir1 dir2 file1 file2 file3
+Star command is not working, tried sudo dnf install star, but it was unable to find a match 
+moving on
+
+Gzip
+man gzip
+gzip dir1 dir2 file1 file2 file3
+(Dir1 dir2 will be ignored)
+ls
+gunzip file1.gz
+ls
+(file1 should be unzipped)
+gunzip file2.gz file3.gz
