@@ -1,0 +1,28 @@
+touch test_file1
+  207  touch test_file2 test_file3 test_file4
+  208  ;s
+  209  ls
+  210  ls -al | grep files
+  211  ls -al | grep file
+  212  clear
+  213  ps aux | grep ssh
+  214  ps aux | grep ssh | grep -v grep
+  215  ls -al
+  216  ls -al | grep file
+  217  ls -al | grep file | grep -v 1 2 3
+  218  ls -al | grep file | grep -v 1
+  219  ls -al | grep file | grep -v file1
+  220  ls -al | grep file | grep -v file1 file2 file3
+  221  ls -al | grep file | grep -v file1 | grep -v file2
+  222  clear
+  223  grep -A 2 -B 2 Allow /etc/ssh/sshd_config
+  224  sudo grep -A 2 -B 2 Allow /etc/ssh/sshd_config
+  225  echo $SHELL > shell.txt
+  226  cat shell.txt
+  227  cat missing_file 2> error.txt
+  228  cat error.txt
+  229  cat missing_file 2>> shell.txt
+  230  cat schell.txt
+  231  cat shell.txt
+  232  echo $SHELL | teeclear
+  233  clear
