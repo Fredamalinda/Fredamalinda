@@ -1,0 +1,95 @@
+6/25
+Tar Star Gzip Bzip
+
+man star
+star - unique standard tape archiver
+to extract files us -x
+mkdir archives 
+cd archives
+ls
+touch file{1,2,3}
+mkdir dir1 dir2
+star -c -f=newstararchive.star dir1 dir2 file1 file2 file3
+Star command is not working, tried sudo dnf install star, but it was unable to find a match 
+moving on
+
+Gzip
+man gzip
+gzip dir1 dir2 file1 file2 file3
+(Dir1 dir2 will be ignored)
+ls
+gunzip file1.gz
+ls
+(file1 should be unzipped)
+gunzip file2.gz file3.gz
+
+ cd
+  247  ls
+  248  mkdir archives
+  249  cd archives/
+  250  touch file{1,2,3}
+  251  mkdir dir1 dir2
+  252  ls
+  253  star -c -f=newstararchive.star dir1 dir2 file1 file2 file3
+  254  sudo dnf install star
+  255  man star
+  256  mandb
+  257  sudo mandb
+  258  sudo dnf install star
+  259  ls
+  260  man gzip
+  261  gzip dir1 dir2 file1 file2 file3
+  262  ls
+  263  gunzip file1.gz
+  264  ls
+  265  gunzip file2.gz file3.gz
+  266  ls
+  267  cd dir1
+  268  touch file01
+  269  cd ..
+  270  cd dir2 
+  271  touch file02
+  272  cd ..
+  273  can tar
+  274  dfn install tar
+  275  dnf install tar
+  276  sudo dnf install tar
+  277  man tar
+  278  ls
+  279  tar cvf newtararchive.tar file1 file2 file3 dir1 dir2
+  280  ls
+  281  rm -rf dir1 dir2 file1 file2 file3
+  282  ls
+  283  tar -tf newtararchive.tar 
+  284  ls
+  285  tar -xvf newtararchive.tar 
+  286  ls
+  287  rm -f newtararchive.tar 
+  288  ls
+  289  tar -cvzf newcompressedarchive.gz dir1 dir2 file1 file2 file3 
+  290  ls
+  291  rm -rf dir1 dir2 file1 file2 file3 
+  292  ls
+  293  tar -xzvf newcompressedarchive.gz
+  294  ls
+  295  rm -f newcompressedarchive.gz 
+  296  ls
+  297  man bzip
+  298  man bzip2
+  299  ls
+  300  bzip2 dir1
+  301  bzip2 file1
+  302  ls
+  303  bzip2 -d file1.bz2
+  304  ls
+  305  man tar
+  306  tar cvjf newarchive.bz2 dir1 dir2 file1 file2 file3
+  307  ls
+  308  rm -rf dir1 dir2 file1 file2 file3
+  309  ls
+  310  tar -tf newarchive.bz2
+  311  ls
+  312  tar -xjvf newarchive.bz2
+  313  ls
+  314  rm -f newarchive.bz2 
+  315  ls
