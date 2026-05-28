@@ -1,6 +1,6 @@
 ## Hi, I'm Fredamalinda Hall
 
-### ☁️ I've been working with linux and cloud services for 2 years
+### ☁️ I work with linux and cloud services
 ### 🔭 I'm currently working on Ansible projects
 ### 🌱 I'm currently learning Terraform + Kubernetes
 
